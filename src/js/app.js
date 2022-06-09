@@ -1,6 +1,12 @@
 // TODO: write your code here
-import sum from './basic';
 
-console.log('worked');
+// Home Work
+// Task 1
+import lifeAlarm from './lifeAlarm';
 
-console.log(sum([1, 2]));
+const hero1 = {
+  name: 'Маг',
+  health: 90,
+};
+
+lifeAlarm(hero1);
